@@ -12,8 +12,4 @@ def third(request):
 def four(request):
     return HttpResponse("<h1><i>i dont like to read my books again ;i want to move to a new chapter</i>")   
 def five(request):
-    return HttpResponse("""
-    <h1>Dhoni</h1>
-    <img 
-    src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Fsports%2Fcricket%2Fipl%2Ftop-stories%2Fipl-2024-ms-dhoni-becomes-first-player-to-make-this-big-record-in-chennai-super-kings-win-against-sunrisers-hyderabad%2Farticleshow%2F109675316.cms&psig=AOvVaw3yTFPBTuFD4TmpcocK5ek4&ust=1732298707541000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCID84qmC7okDFQAAAAAdAAAAABAh.jpg alt="dhoni image">
-    """)
+    return HttpRespons("<i>hai</i>")
